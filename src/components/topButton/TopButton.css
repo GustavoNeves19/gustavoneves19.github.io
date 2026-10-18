@@ -1,11 +1,22 @@
 #topButton {
-  visibility: hidden;
   position: fixed;
   bottom: 1.2rem;
   right: 1.5rem;
+  z-index: 20;
   cursor: pointer;
-  padding: 15px;
-  outline: none;
-  border-radius: 2rem;
-  font-size: 1.5rem;
+  padding: 0.75rem 0.9rem;
+  border-radius: 999px;
+  font-size: 1.25rem;
+  line-height: 1;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+#topButton:hover {
+  transform: translateY(-3px);
+}
+
+#topButton:focus-visible {
+  outline: 3px solid #2f80ed;
+  outline-offset: 3px;
 }
