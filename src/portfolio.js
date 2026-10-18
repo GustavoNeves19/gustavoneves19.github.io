@@ -6,27 +6,27 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Gustavo Neves | Portfolio",
+  title: "Gustavo Neves | Dados e Inteligência Artificial",
   description:
-    "Portfólio profissional de Gustavo Neves com foco em Ciência de Dados, aprendizado de máquina e soluções baseadas em dados para problemas reais.",
+    "Portfólio de Gustavo Neves. Diagnóstico de processos, engenharia de dados, automação e inteligência artificial para eficiência operacional.",
   og: {
     title: "Gustavo Neves | Portfolio",
     type: "website",
-    url: "https://gustavoneves.dev", // personalize
+    url: "https://gustavoneves19.github.io/", // personalize
   },
 };
 
 
 //Home Page
 const greeting = {
-  title: "Data Science",
+  title: "Dados, IA e eficiência operacional",
   logo_name: "Gustavo Neves",
   nickname: "",
   subTitle:
-    "Vejo a Ciência de Dados como uma forma estratégica de transformar dados em decisões. A jornada começa na coleta e preparação, passa pela análise exploratória, modelagem estatística e machine learning, e se estende ao uso de IA Generativa para potencializar análises e automações. Aqui compartilho como aplico esse processo — da análise ao impacto — em problemas do mundo real",
+    "Diagnostico processos, integro dados e crio automações com inteligência artificial para reduzir trabalho manual e apoiar decisões. Aqui você encontra projetos, experiências e formas de contato.",
 
   resumeLink:
-    "https://drive.google.com/file/d/1DWhWxoottg_l4DuMbQto2yeU7tWcP26x/view?usp=sharing",
+    "https://www.linkedin.com/in/gustavo-nevesz/",
   portfolio_repository: "https://github.com/GustavoNeves19/GustavoNeves19",
   githubProfile: "https://github.com/GustavoNeves19",
 };
@@ -49,14 +49,14 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "www.linkedin.com/in/gustavo-nevesz",
+    link: "https://www.linkedin.com/in/gustavo-nevesz/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   
   {
     name: "Gmail",
-    link: "mailto:gustavonpr19@gamil.com",
+    link: "mailto:gustavonpr19@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -240,9 +240,9 @@ const skills = {
   "fileName": "GenerativeAIImg",      // <-- adicione isto        // mantém a referência direta à imagem
   "skills": [
     "A IA Generativa representa a fronteira do aprendizado de máquina, criando novos conteúdos como texto, imagens, código e áudio, em vez de apenas analisar dados existentes.",
-    "⚡ Desenvolvimento e fine-tuning (ajuste fino) de Large Language Models (LLMs) como GPT, Llama e Gemini;",
+    "⚡ Construção de agentes de IA com LLMs para apoiar atendimento, análise e consulta a informações;",
     "⚡ Criação de modelos para Geração Aumentada de Recuperação (RAG) para respostas mais contextuais e baseadas em fontes específicas;",
-    "⚡ Implementação de modelos Text-to-Image (como Stable Diffusion, DALL-E) e Text-to-Audio (como MusicGen, Voice AI);",
+    "⚡ Integração de mensagens, áudios e ferramentas MCP para transformar interações em dados consultáveis;",
     "⚡ Avaliação e mitigação de vieses (bias) e riscos associados à geração de conteúdo (Responsibility AI/IA Responsável)."
   ],
   "softwareSkills": [
@@ -465,7 +465,7 @@ const experience = {
   title: "Experiência",
   subtitle: "Trabalhos, estágios e voluntários",
   description:
-    "Atuo com Ciência de Dados desde 2024. Durante a graduação, participei de projetos de pesquisa científica nas áreas de biotecnologia, finanças e saúde, aplicando técnicas de machine learning, estatística, NLP e IA Generativa. Desenvolvi um agente de IA Generativa para automatizar análises em experimentos científicos, reduzindo significativamente o tempo de processamento e aumentando a confiabilidade dos resultados. Além disso, atuei em soluções de engenharia de dados na nuvem com foco em automação e análise de grandes volumes de dados.",
+    "Atuo na integração de dados, automação e inteligência artificial aplicadas a problemas operacionais. Estruturei um Data Lake com sete fontes de diferentes áreas, desenvolvi pipelines e validações e criei soluções que reduzem consolidações manuais e facilitam o acesso da gestão às informações.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -542,7 +542,7 @@ const experience = {
 const projectsHeader = {
   title: "Projetos",
   description:
-    "Apresento projetos de Ciência de Dados desenvolvidos com foco em gerar valor para negócios. As soluções aqui demonstradas vão desde análises exploratórias e modelagens preditivas até interfaces web interativas, combinando tecnologia e estratégia para apoiar a tomada de decisão baseada em dados.",
+    "Conheça projetos públicos de análise de dados, modelagem estatística e IA. Cada projeto mostra o problema tratado, a solução técnica e como ela pode apoiar decisões ou reduzir trabalho manual.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -584,7 +584,7 @@ const contactPageData = {
     title: "Contato",
     profile_image_path: "gustavo-neves.jpeg",
     description:
-      "Entre em contato comigo pelas redes sociais ou pelo formulário abaixo. Estou disponível para colaborações, projetos profissionais e oportunidades na área de ciência de dados, tecnologia e soluções baseadas em dados.",
+      "Vamos conversar sobre oportunidades em dados e IA ou sobre projetos de diagnóstico de processos e automação. Use os links abaixo para acessar meu GitHub, LinkedIn, e-mail ou WhatsApp.",
   },
   blogSection: {
     title: "Blogs",
