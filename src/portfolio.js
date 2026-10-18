@@ -463,7 +463,7 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experiência",
-  subtitle: "Trabalhos, estágios e voluntários",
+  subtitle: "Dados, inteligência artificial e pesquisa",
   description:
     "Atuo na integração de dados, automação e inteligência artificial aplicadas a problemas operacionais. Estruturei um Data Lake com sete fontes de diferentes áreas, desenvolvi pipelines e validações e criei soluções que reduzem consolidações manuais e facilitam o acesso da gestão às informações.",
   header_image_path: "experience.svg",
@@ -472,6 +472,16 @@ const experience = {
       title: "Experiência Profissional",
       work: true,
       experiences: [
+        {
+          title: "Analista de Dados e Inteligência Artificial",
+          company: "VanguardIA",
+          company_url: "https://www.linkedin.com/company/106944970/",
+          logo_path: null,
+          duration: "Fev 2026 - Atual",
+          location: "Belém, Pará",
+          description: "Estruturei um Data Lake com sete fontes de dados comerciais, financeiros, de produção, mercado e compras, reduzindo consolidações manuais. Desenvolvi pipelines ETL/ELT em Python e SQL, validações de indicadores e painéis para tornar as informações mais confiáveis e acessíveis. Também criei integrações e agentes de IA que organizam interações e automatizam etapas do atendimento.",
+          color: "#0879bf",
+        },
         {
           title: "Estágio em Data Science",
           company: "Grupo de Pesquisa em IA e Simulação Aplicada à Ciência de Alimentos.",
